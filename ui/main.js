@@ -1,4 +1,4 @@
-console.log('Loaded!');
+//console.log('Loaded!');
 var b=document.getElementById('b1');
 var c=0;
 b.onclick= function(){
