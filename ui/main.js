@@ -5,4 +5,4 @@ b.onclick= function(){
     c=c+1;
     var span=document.getElementById('count');
     span.innerHTML=c.toString();
-}
+};
