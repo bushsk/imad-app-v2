@@ -1,4 +1,4 @@
-//console.log('Loaded!');
+console.log('Loaded!');
 var b = document.getElementById('b1');
 var c = 0;
 b.onclick = function(){
@@ -8,10 +8,10 @@ b.onclick = function(){
     alert(c.toString());
 };
 
-var nameInput=document.getElementById('name');
-var n=nameInput.value;
-var submit=document.getElementById('submit');
-submit.onClick = function(){
+var nameInput = document.getElementById('name');
+var n = nameInput.value;
+var submit = document.getElementById('submit');
+submit.onclick = function(){
     var names=['name1','name2','name3','name4'];
     var list='';
     for(var i=0;i<names.length;i++)
