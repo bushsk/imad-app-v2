@@ -7,3 +7,7 @@ b.onclick = function(){
     span.innerHTML=c.toString();
     alert(c.toString());
 };
+
+var nameInput=document.getElementById('name');
+var n=nameInput.value;
+var submit=document.getElementById('submit');
